@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+}
+.phone{
+	width:320px;
+	height:600px;
+	border:4px #000 solid;
+	margin:30px auto;
+	background: #000;
+	/*圆角*/
+	border-radius: 30px;
+}
+.top{
+	width:240px;
+	height:25px;
+	/*background: red;*/
+	margin:20px auto;
+}
+.bottom{
+	width:270px;
+	height:27px;
+	margin:20px;
+}
+.screen{
+	width:310px;
+	height:474px;
+	background: #000;
+	background-image: url("1.png");
+	background-size: cover;
+	margin:0 auto;
+}
+.home{
+	width:70px;
+	height: 27px;
+	background: white;
+	border:2px #000 solid;
+	border-radius: 15%;
+	margin:15px auto 0;
+}
+.box{
+	width:75px;
+	height:11px;
+	border:1px #000 solid;
+	background: white;
+	border-radius: 13px;
+	/*浮动：左浮动*/
+	float:left;
+	margin-top:10px;
+	margin-left:15px;
+}
+.circle1{
+	width:17px;
+	height:17px;
+	background: green;
+	border-radius:50%;
+	float:left;
+	margin-top:9px;
+	margin-left:40px;
+}
+.circle2{
+	width:15px;
+	height:9px;
+	background: blue;
+	border-radius: 33%;
+	float:left;
+	margin-top:11px;
+	margin-left:15px;
+}
+.circle3{
+	width:17px;
+	height:17px;
+	background: white;
+	border-radius:30%;
+	float:left;
+	margin-top:6px;
+	margin-left:25px;
+}
+.circle4{
+	width: 230px;
+	height: 0;
+	float:left;
+	border-top: 10px solid transparent;
+    border-right: 17px solid white;
+    border-bottom: 10px solid transparent;
+    margin-top:-24px;
+	margin-left:0px;
+}
